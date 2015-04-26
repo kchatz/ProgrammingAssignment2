@@ -1,6 +1,6 @@
-## The following functions calculate the inverse of a matrix and saves it
-## to the cache such that the next time the user attempts to calculate the
-## matrix inverse, the previously saved value is returned instead of
+## The following functions are to be used for the calculation of the inverse of a matrix.  
+## Furthermore, the inverse is saved to the cache in order to avoid the repetition of the 
+## matrix inverse calculation; when the inverse is called the saved value is returned instead of
 ## repeating the calculation.
 
 ## This function creates a special "matrix" object, which is really a list 
